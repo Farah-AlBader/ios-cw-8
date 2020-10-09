@@ -36,10 +36,10 @@ class MovieDetailsViewController: UIViewController {
         super.viewDidLoad()
         configureUI()
         setMovieDetails()
-
+        
         // Do any additional setup after loading the view.
     }
-    
+   
 
     func setMovieDetails(){
         movieName.title = movieData.movieName
@@ -65,6 +65,5 @@ class MovieDetailsViewController: UIViewController {
         ratingBG.layer.cornerRadius = 20
         yearBG.layer.cornerRadius = 20
     }
-    
     
 }
